@@ -5,7 +5,7 @@
 
 source /etc/functions.sh
 
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Afiniel Yiimp Multi Server Installer v4.7.0" --menu "Choose one" -1 63 10 \
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Afiniel Yiimp Multi Server Installer v4.7.2" --menu "Choose one" -1 63 10 \
 ' ' "- Required if your Host does Not provide Private IPs -" \
 1 "Install Wireguard Network" \
 ' ' "- Three Server Configuration -" \

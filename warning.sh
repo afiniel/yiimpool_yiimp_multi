@@ -3,7 +3,7 @@
 # Updated by afiniel for crypto use...
 #####################################################
 
-message_box "Afiniel Yiimp Multi Server Installer v4.7.0" \
+message_box "Afiniel Yiimp Multi Server Installer v4.7.2" \
 "You have choosen to install YiiMP Multi Server!
 \n\nThis option will install YiiMP across multiple servers.
 \n\nThis option is for more advanced pool operators and has the following requirements:

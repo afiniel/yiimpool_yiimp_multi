@@ -50,7 +50,7 @@ echo By default all stratum ports are blocked by the firewall. To allow a port t
 echo Database user names and passwords can be found in $STORAGE_ROOT/yiimp_setup/.my.cnf
 echo "-----------------------------------------------"
 echo
-echo Thank you for using the Afiniel Yiimp Multi Server Installer v4.7.0!
+echo Thank you for using the Afiniel Yiimp Multi Server Installer v4.7.2!
 echo
 echo To run this installer anytime simply type, yiimpool!
 echo Donations for continued support of this script are welcomed at:
