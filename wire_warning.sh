@@ -3,7 +3,7 @@
 # Updated by afiniel for crypto use...
 #####################################################
 
-message_box "Afiniel Yiimp Multi Server Installer v4.7.2" \
+message_box "Afiniel Yiimp Multi Server Installer v4.7.3" \
 "You have choosen to install Wireguard on additional server(s)!
 \n\nIf you are setting up this server at a later time from your initial installation, you must log in to your DB server and type:
 \n\ncat ${STORAGE_ROOT}/yiimp/.wireguard_public.conf

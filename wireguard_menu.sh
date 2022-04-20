@@ -6,7 +6,7 @@
 source /etc/functions.sh
 cd $HOME/yiimpool/yiimp_multi
 
-RESULT=$(dialog --stdout --title "Afiniel Yiimp Multi Server Installer v4.7.2" --menu "Choose one" -1 60 6 \
+RESULT=$(dialog --stdout --title "Afiniel Yiimp Multi Server Installer v4.7.3" --menu "Choose one" -1 60 6 \
 1 "Install Wireguard on DB Server or DB-Stratum Server" \
 2 "Install Wireguard on Web Server" \
 3 "Install Wireguard on First Stratum Server Only" \
