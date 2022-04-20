@@ -45,11 +45,11 @@ password='"${DBRootPassword}"'
 ' | sudo -E tee $STORAGE_ROOT/yiimp/.my.cnf >/dev/null 2>&1
 
 sudo chmod 0600 $STORAGE_ROOT/yiimp/.my.cnf
-echo -e "$GREEN DB users and passwords can be found in $STORAGE_ROOT/yiimp/.my.cnf$COL_RESET"
+echo -e "$GREEN DB users and passwords can be found in $RED $STORAGE_ROOT/yiimp/.my.cnf$COL_RESET $COL_RESET"
 
 cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp/sql
 # import sql dump
-sudo zcat 2019-11-10-yiimp.sql.gz | sudo mysql -u root -p"${DBRootPassword}" ${YiiMPDBName}
+sudo zcat 2021-06-21-yaamp.sql | sudo mysql -u root -p"${DBRootPassword}" ${YiiMPDBName}
 sudo mysql -u root -p"${DBRootPassword}" ${YiiMPDBName} --force < 2018-09-22-workers.sql
 sudo sed -i '/max_connections/c\max_connections         = 800' /etc/mysql/my.cnf
 sudo sed -i '/thread_cache_size/c\thread_cache_size       = 512' /etc/mysql/my.cnf

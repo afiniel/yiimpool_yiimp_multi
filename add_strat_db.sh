@@ -29,6 +29,6 @@ password='"${DBRootPassword}"'
 ' | sudo -E tee $STORAGE_ROOT/yiimp/.my.$generate.cnf >/dev/null 2>&1
 sudo chmod 0600 $STORAGE_ROOT/yiimp/.my.$generate.cnf
 
-echo -e "$GREEN DB users and passwords can be found in $STORAGE_ROOT/yiimp/.my.cnf$COL_RESET"
+echo -e "$GREEN DB users and passwords can be found in $RED $STORAGE_ROOT/yiimp/.my.cnf$COL_RESET $COL_RESET"
 echo
 echo -e "$GREEN New user created...$COL_RESET"
