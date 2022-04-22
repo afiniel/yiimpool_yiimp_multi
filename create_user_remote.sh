@@ -88,7 +88,7 @@ echo -e "$GREEN Done...$COL_RESET"
 ARCHITECTURE=$(uname -m)
   if [ "$ARCHITECTURE" != "x86_64" ]; then
     if [ -z "$ARM" ]; then
-      echo "Afiniel Yiimp Multi Server Installer v4.7.3 only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
+      echo "Afiniel Yiimp Multi Server Installer v4.7.5 only supports x86_64 and will not work on any other architecture, like ARM or 32 bit OS."
       echo "Your architecture is $ARCHITECTURE"
       exit
     fi
